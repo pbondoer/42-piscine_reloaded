@@ -6,7 +6,7 @@
 /*   By: hmartzol <hmartzol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/05 11:56:45 by hmartzol          #+#    #+#             */
-/*   Updated: 2016/11/23 07:48:32 by lemon            ###   ########.fr       */
+/*   Updated: 2016/11/23 08:26:48 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ int	main(int argc, char **argv)
 	int		r;
 
 	if (argc < 2)
-		write(1, "File name missing\n", 18);
+		write(1, "File name missing.\n", 19);
 	if (argc > 2)
-		write(1, "Too many arguments\n", 19);
+		write(1, "Too many arguments.\n", 20);
 	fd = open(argv[1], O_RDONLY);
 	while ((r = read(fd, buffer, 1024)) > 0)
 		write(1, buffer, r);

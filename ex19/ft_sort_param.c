@@ -6,9 +6,11 @@
 /*   By: lemon <pierre@bondoer.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/23 07:17:46 by lemon             #+#    #+#             */
-/*   Updated: 2016/11/23 07:24:36 by lemon            ###   ########.fr       */
+/*   Updated: 2016/11/23 08:25:59 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+int		ft_putchar(char c);
 
 int		ft_strcmp(char *s1, char *s2)
 {

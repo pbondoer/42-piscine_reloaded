@@ -6,9 +6,11 @@
 /*   By: lemon <pierre@bondoer.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/23 06:59:02 by lemon             #+#    #+#             */
-/*   Updated: 2016/11/23 07:00:40 by lemon            ###   ########.fr       */
+/*   Updated: 2016/11/23 08:25:26 by pbondoer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+int		ft_putchar(char c);
 
 int		main(int argc, char **argv)
 {
